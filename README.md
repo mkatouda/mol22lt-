@@ -1,4 +1,4 @@
-# mol2tolt.py
+# mol2tolt
 
 
 ## Overview
@@ -16,7 +16,7 @@ Note: Atom type of mol2 file (*.mol2) should be assigned by antechamber.
 
 #### Command
 ```
-$ python ./gaff-itp2moltemp.py rr-dihydroxyoctane.mol2
+$ python ./mol2tolt.py rr-dihydroxyoctane.mol2
 ```
 
 #### Output file
@@ -32,7 +32,7 @@ Gromacs itp file: rr-dihydroxyoctane_GMX.itp
 
 #### Command
 ```
-$ python ./gaff-itp2moltemp.py rr-dihydroxyoctane_GMX.gro
+$ python ./mol2tolt.py rr-dihydroxyoctane_GMX.gro
 ```
 
 #### Output file

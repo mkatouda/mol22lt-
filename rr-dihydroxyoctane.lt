@@ -1,0 +1,66 @@
+import "gaff.lt"
+
+rr-dihydroxyoctane inherits GAFF {
+
+  write('Data Atoms') {
+    $atom:H1     $mol @atom:hc       0.094267     5.368000     0.158000    -0.277000
+    $atom:C1     $mol @atom:c3      -0.370630     4.426000     0.723000    -0.284000
+    $atom:H2     $mol @atom:hc       0.094267     4.425000     1.390000     0.585000
+    $atom:H3     $mol @atom:hc       0.094267     4.413000     1.333000    -1.194000
+    $atom:C2     $mol @atom:c3       0.411703     3.222000    -0.221000    -0.230000
+    $atom:O1     $mol @atom:oh      -0.620483     3.255000    -1.023000     0.955000
+    $atom:H4     $mol @atom:ho       0.374338     4.078000    -1.536000     0.941000
+    $atom:H5     $mol @atom:h1      -0.037004     3.243000    -0.875000    -1.120000
+    $atom:C3     $mol @atom:c3      -0.171787     1.891000     0.532000    -0.214000
+    $atom:H6     $mol @atom:hc       0.043507     1.866000     1.212000    -1.077000
+    $atom:H7     $mol @atom:hc       0.043507     1.867000     1.161000     0.687000
+    $atom:C4     $mol @atom:c3       0.063540     0.663000    -0.386000    -0.238000
+    $atom:H8     $mol @atom:hc      -0.009746     0.718000    -1.075000     0.613000
+    $atom:H9     $mol @atom:hc      -0.009746     0.693000    -1.010000    -1.144000
+    $atom:C5     $mol @atom:c3       0.063540    -0.665000     0.381000    -0.199000
+    $atom:H10    $mol @atom:hc      -0.009746    -0.713000     1.074000    -1.054000
+    $atom:H11    $mol @atom:hc      -0.009746    -0.682000     1.005000     0.708000
+    $atom:C6     $mol @atom:c3      -0.171787    -1.896000    -0.535000    -0.214000
+    $atom:H12    $mol @atom:hc       0.043507    -1.878000    -1.190000     0.667000
+    $atom:H13    $mol @atom:hc       0.043507    -1.848000    -1.188000    -1.098000
+    $atom:C7     $mol @atom:c3       0.411703    -3.238000     0.213000    -0.236000
+    $atom:H14    $mol @atom:h1      -0.037004    -3.270000     0.844000    -1.142000
+    $atom:O2     $mol @atom:oh      -0.620483    -3.409000     1.035000     0.924000
+    $atom:H15    $mol @atom:ho       0.374338    -2.711000     1.708000     0.913000
+    $atom:C8     $mol @atom:c3      -0.370630    -4.429000    -0.738000    -0.260000
+    $atom:H16    $mol @atom:hc       0.094267    -4.398000    -1.380000    -1.147000
+    $atom:H17    $mol @atom:hc       0.094267    -4.423000    -1.374000     0.632000
+    $atom:H18    $mol @atom:hc       0.094267    -5.366000    -0.172000    -0.269000
+  }
+
+  write('Data Bond List') {
+    $bond:H1C1       $atom:H1     $atom:C1    
+    $bond:C1H2       $atom:C1     $atom:H2    
+    $bond:C1H3       $atom:C1     $atom:H3    
+    $bond:C1C2       $atom:C1     $atom:C2    
+    $bond:C2O1       $atom:C2     $atom:O1    
+    $bond:C2H5       $atom:C2     $atom:H5    
+    $bond:C2C3       $atom:C2     $atom:C3    
+    $bond:O1H4       $atom:O1     $atom:H4    
+    $bond:C3H6       $atom:C3     $atom:H6    
+    $bond:C3H7       $atom:C3     $atom:H7    
+    $bond:C3C4       $atom:C3     $atom:C4    
+    $bond:C4H8       $atom:C4     $atom:H8    
+    $bond:C4H9       $atom:C4     $atom:H9    
+    $bond:C4C5       $atom:C4     $atom:C5    
+    $bond:C5H10      $atom:C5     $atom:H10   
+    $bond:C5H11      $atom:C5     $atom:H11   
+    $bond:C5C6       $atom:C5     $atom:C6    
+    $bond:C6H12      $atom:C6     $atom:H12   
+    $bond:C6H13      $atom:C6     $atom:H13   
+    $bond:C6C7       $atom:C6     $atom:C7    
+    $bond:C7H14      $atom:C7     $atom:H14   
+    $bond:C7O2       $atom:C7     $atom:O2    
+    $bond:C7C8       $atom:C7     $atom:C8    
+    $bond:O2H15      $atom:O2     $atom:H15   
+    $bond:C8H16      $atom:C8     $atom:H16   
+    $bond:C8H17      $atom:C8     $atom:H17   
+    $bond:C8H18      $atom:C8     $atom:H18   
+  }
+
+}

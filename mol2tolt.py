@@ -114,10 +114,11 @@ def read_gro(f_gro, f_itp):
 
     # Read coordinate
 
+    nm2ang = 10.0
     coord = []
     for iatom in range(natoms):
         line = lines[iatom+2].split()
-        coord.append([float(line[4]), float(line[5]), float(line[6])])
+        coord.append([float(line[4])*nm2ang, float(line[5])*nm2ang, float(line[6])*nm2ang])
 
     return atom, atomtype, coord, charge, bondidx
 
